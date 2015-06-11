@@ -13,7 +13,7 @@ my $TEST = $ENV{ TEST_GIST_IT_APPSPOT } // 'local';
 
 my $base;
 if      ( $TEST eq 'local' ) { $base = "http://localhost:8080" }
-elsif   ( $TEST eq 0 )       { $base = "http://gist-it.appspot.com" }
+elsif   ( $TEST eq 0 )       { $base = "https://gist-it.appspot.com" }
 else                         { $base = "http://$TEST.gist-it.appspot.com" }
 
 my $is_local = $base =~ m/localhost/;

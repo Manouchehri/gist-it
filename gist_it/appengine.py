@@ -100,7 +100,7 @@ def dispatch_gist_it( dispatch, location ):
         data = memcache.get( memcache_key )
         if data is None or not _CACHE_:
             base = dispatch.url_for()
-            # For below, see: http://stackoverflow.com/questions/2826238/does-google-appengine-cache-external-requests
+            # For below, see: https://stackoverflow.com/questions/2826238/does-google-appengine-cache-external-requests
             response = urlfetch.fetch( gist.raw_url, headers = { 'Cache-Control': 'max-age=300' } )
             if response.status_code != 200:
                 if response.status_code == 403:

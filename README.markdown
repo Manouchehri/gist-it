@@ -2,11 +2,11 @@
 
 An AppEngine app to embed files from a github repository like a gist
 
-http://github.com/robertkrimen/gist-it
+https://github.com/robertkrimen/gist-it
 
 ### Try it
 
-You can try it at [gist-it.appspot.com](http://gist-it.appspot.com)
+You can try it at [gist-it.appspot.com](https://gist-it.appspot.com)
 
 ### Usage
 
@@ -36,5 +36,5 @@ To run perl tests (against a running server):
 
 Robert Krimen (robertkrimen@gmail.com)
 
-* http://github.com/robertkrimen
+* https://github.com/robertkrimen
 * http://search.cpan.org/~rokr/?R=D
